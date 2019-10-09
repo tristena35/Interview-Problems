@@ -13,8 +13,7 @@ public class HappyNumbers {
         	
             while(n > 0){
             	            
-                sum += (n % 10) * (n % 10);
-                          
+                sum += (n % 10) * (n % 10);      
                 n /= 10;
             
                 System.out.println("Sum = " + sum);
@@ -28,10 +27,11 @@ public class HappyNumbers {
             else
                 n = sum;
         
-            y++;
+            y ++;
             
         }
-		return false;
+
+	return false;
         
    }
     
