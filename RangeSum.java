@@ -80,7 +80,7 @@ public class RangeSum {
 	     * Since it's inOrder traversal for a binary tree, the values in between will be valid
 	     */
 	    if(root.val >= L && root.val <= R){
-	        sum =+ root.val;
+	        sum += root.val;
 	    }
 
 	    //These recursively traverse the tree following inOrder traversal
