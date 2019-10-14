@@ -18,6 +18,7 @@ public class SumOfSmallInt {
         numbers[8] = 392;
         numbers[9] = 94;
 
+        //Edge case
         if(numbers.length == 0)
             return;
 
@@ -45,6 +46,7 @@ public class SumOfSmallInt {
         //Sum variable to hold sum when adding digits
         int sum = 0;
 
+        //Loop to take the sum of the digits
         while(min > 0){
             sum += min % 10;
             min /= 10;
