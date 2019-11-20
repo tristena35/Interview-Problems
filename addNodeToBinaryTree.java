@@ -30,10 +30,9 @@ class Solution {
     
     /*
     Go through the tree recursively,
-    if the node you are currently traversing is null, you may want to traverse
-    Go through the left or right subtree depending on which order side is appropriate
+    if the node you are currently traversing is null, here is where your answer will go
+    Go through the left or right subtree depending on which is appropriate according to the value given
     less than go left, bigger than go right
-    
     */
     
     
