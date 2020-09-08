@@ -1,0 +1,29 @@
+class Solution {
+    public int reverse(int x) {
+        
+        boolean isNegative = false;
+        int reversedNumber = 0;
+        
+        if(x < 0) //Negative
+        {
+            isNegative = true;
+            x *= -1;
+        }
+        
+        while(x > 0)
+        {
+            reversedNumber += (x % 10);
+            reversedNumber *= 10;
+            x /= 10;
+        }
+        
+        reversedNumber /= 10;
+        
+        if(isNegative)
+        {
+            reversedNumber *= -1;
+        }
+        
+        return reversedNumber;
+    }
+}
